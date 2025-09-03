@@ -138,6 +138,15 @@ article p.bolder{
     margin-top: 40px;
     clear: both;
 }
+#contact{
+     
+    width:25%;
+    margin: 1%;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 .products-container{
     display: flex;
