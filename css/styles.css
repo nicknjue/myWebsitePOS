@@ -164,7 +164,7 @@ article p.bolder{
 
 }
 .product-box{
-    background-color: var(--light-gray);
+    background-color: var(--green);
     width: 270px;
     margin: 15px;
     padding: 20px;
@@ -215,7 +215,8 @@ article p.bolder{
     gap: 20px;
 }
 .gallery-item{
-    background: white;
+    color: #d1d2d4;
+    background: rebeccapurple;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition-duration: 1s;
