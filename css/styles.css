@@ -17,6 +17,13 @@
 }
  
 body{
+    /*/*whole background image*/
+  background-image: url('myImage.jpg');
+      background-size: cover;   /* Makes the image cover the whole screen */
+      background-repeat: no-repeat; /* Prevents tiling */
+      background-attachment: fixed; /* Makes background stay still when scrolling */
+   
+    /*whole background color*/
     background-color:var(--cream); 
     /*typography*/
     font-family: 'Lato',Sans-Serif;
@@ -42,7 +49,7 @@ h1,h2,h3,h4,h5,h6{
 }
  
 .main-nav{
-    background-color: var(--dark-brown);
+    background-color: var(--black);
     padding: 10px 0;/*shorthand*/
     padding-top: 10px;
     padding-bottom: 10px;
@@ -61,7 +68,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*this refers to all anchor tags<a> on the li's*/
 li.nav-item a{
-    color: var(--cream);
+    color: var(--red);
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -69,8 +76,8 @@ li.nav-item a{
 
 /*pseudo-class selector*/
 li.nav-item a:hover, li.nav-item.active {
-    background-color: var(--warm-beige);
-    color: var(--dark-brown);
+    background-color: var();
+    color: var(--green);
     border-radius:5px;
 }
 /*highlighting the link based on the active page
@@ -114,9 +121,11 @@ article p.bolder{
  
 /*Offers and Best styles*/
 #offers, #best{
+  font-weight: bold;
+    color: var(--red);
     width:44%;
     margin: 1%;
-    background-color: var(--light-gray);
+    background-color: var(--green);
     padding: 10px;
     border-radius: 10px;
 }
@@ -133,16 +142,16 @@ article p.bolder{
 }
 /*featured products*/
 #featured-products{
-    background-color: var(--light-gray);
+    background-color: var(--white);
     padding: 20px 0;
     margin-top: 40px;
     clear: both;
 }
 #contact{
-     
-    width:25%;
+    color: var(--red);
+    width: 35%;
     margin: 1%;
-    background-color: var(--blue);
+    background-color: var(--black);
     padding: 10px;
     border-radius: 10px;
 }
@@ -155,7 +164,7 @@ article p.bolder{
 
 }
 .product-box{
-    background-color: white;
+    background-color: var(--light-gray);
     width: 270px;
     margin: 15px;
     padding: 20px;
@@ -215,7 +224,7 @@ article p.bolder{
     transform: translateY(10px);
 }
 footer{
-    background-color: var(--dark-brown);
+    background-color: var(--black);
     color: white;
     text-align: center;
     margin-top: 5px;
@@ -223,7 +232,7 @@ footer{
 
 }
 footer a{
-    color: var(--accent-yellow);
+    color: var(--red);
     text-decoration: none;
 }
 footer a:hover{
