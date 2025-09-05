@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nicknjue.github.io/myWebsitePOS/sitemap.xml
