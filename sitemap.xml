@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>https://nicknjue.github.io/myWebsitePOS/</loc>
+=======
+    <loc>https://nicknjue.github.io/myWebsitePOS/index</loc>
+>>>>>>> ae09e584cf1d3031b1d694fbbc0a5c17c4f9c438
     <lastmod>2025-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
